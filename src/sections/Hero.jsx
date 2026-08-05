@@ -105,11 +105,10 @@ export default function Hero() {
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6 }}
- className="mt-17 inline-flex items-center rounded-full border border-[var(--color-border)] bg-white/5 px-3 py-1.5 backdrop-blur-md sm:mt-4 sm:px-4 sm:py-2"
+className="mt-20 inline-flex items-center rounded-full border border-[var(--color-border)] bg-white/5 px-3 py-1.5 backdrop-blur-md sm:mt-16 lg:mt-10 sm:px-4 sm:py-2"
 >
-  <span className="mr-2 h-2 w-2 rounded-full bg-[var(--color-primary)]"></span>
-
- <p className="text-xs text-gray-300 sm:text-sm lg:mt-1">
+ <span className="mr-2 h-2 w-2 rounded-full bg-[var(--color-primary)] lg:mt-1"></span>
+ <p className="text-[15px] text-gray-300 sm:text-sm lg:mt-1">
   Professional Video Editor
 </p>
 </motion.div>
@@ -118,7 +117,7 @@ export default function Hero() {
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.2, duration: 0.8 }}
- className="mt-6 text-4xl font-black leading-tight text-white sm:mt-8 sm:text-5xl lg:text-6xl"
+className="mt-8 text-[2.8rem] font-black leading-tight text-white sm:text-5xl lg:text-6xl"
 >
   Where Every Frame 
    Tells
@@ -132,7 +131,7 @@ export default function Hero() {
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.4 }}
- className="mt-6 max-w-lg font-poppins text-[15px] leading-8 font-light tracking-[0.02em] text-gray-400"
+className="mt-7 max-w-xl font-poppins text-base leading-8 text-gray-400 sm:text-lg"
 >
   Asad Visuals creates cinematic edits for YouTube, brands,
   commercials, reels and social media.
@@ -216,12 +215,6 @@ className="relative mx-auto mt-10 flex justify-center lg:mt-12 lg:justify-end"
 </motion.div>
 
       </div>
-
-
-
-
-
-
 
 <div className="mt-8">
 

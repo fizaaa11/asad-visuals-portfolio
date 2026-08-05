@@ -132,7 +132,7 @@ export default function Projects() {
   onClick={() =>
     setSelectedVideo({
       video: reel2,
-      title: "me genda",
+      title: "The Human Brain ",
       category: "Instagram Reel",
     })
   }
