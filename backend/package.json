@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +17,5 @@
     "express": "^5.2.1",
     "express-rate-limit": "^8.6.2",
     "nodemailer": "^9.0.5"
-  },
- "scripts": {
-  "dev": "nodemon server.js",
-  "start": "node server.js"
-}
+  }
 }
