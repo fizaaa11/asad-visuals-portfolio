@@ -11,7 +11,7 @@ export default function About() {
 
         {/* Content */}
 
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid w-full max-w-7xl items-center gap-12 md:gap-14 lg:grid-cols-2 lg:gap-16 xl:max-w-[1400px] 2xl:max-w-[1600px]">
 
         {/* LEFT */}
 
@@ -20,6 +20,7 @@ export default function About() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8 }}
+        className="w-full max-w-2xl"
 >
 {/* Section Heading */}
 
@@ -88,7 +89,7 @@ export default function About() {
   whileInView={{ opacity: 1, x: 0 }}
   viewport={{ once: true }}
   transition={{ duration: 0.8 }}
-  className="relative hidden h-[560px] w-full items-center justify-center lg:flex"
+ className="relative hidden h-[560px] w-full items-center justify-center lg:flex xl:h-[600px] 2xl:h-[640px]"
 >
   {/* Background Glow */}
   <div className="absolute h-[470px] w-[470px] rounded-full bg-[var(--color-primary)]/10 blur-[120px]" />

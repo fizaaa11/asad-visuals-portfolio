@@ -96,10 +96,10 @@ export default function Hero() {
         <FloatingParticles />
       {/* Hero Container */}
 
-      <div className="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-16 px-6 lg:grid-cols-2 lg:px-10">
+     <div className="relative z-10 mx-auto grid min-h-screen w-full max-w-7xl items-center gap-10 px-5 sm:px-8 md:gap-12 lg:grid-cols-2 lg:gap-16 lg:px-10 xl:max-w-[1400px] 2xl:max-w-[1600px]">
       
 
-        <div>
+      <div className="w-full max-w-2xl">
 
           <motion.div
   initial={{ opacity: 0, y: 20 }}
@@ -117,7 +117,7 @@ className="mt-20 inline-flex items-center rounded-full border border-[var(--colo
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.2, duration: 0.8 }}
-className="mt-8 text-[2.8rem] font-black leading-tight text-white sm:text-5xl lg:text-6xl"
+className="mt-8 text-[2.8rem] font-black leading-tight text-white sm:text-5xl lg:text-6xl xl:text-[4.2rem] 2xl:text-[4.8rem]"
 >
   Where Every Frame 
    Tells
@@ -131,7 +131,7 @@ className="mt-8 text-[2.8rem] font-black leading-tight text-white sm:text-5xl lg
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.4 }}
-className="mt-7 max-w-xl font-poppins text-base leading-8 text-gray-400 sm:text-lg"
+className="mt-7 max-w-xl font-poppins text-base leading-8 text-gray-400 sm:text-lg xl:max-w-2xl"
 >
   Asad Visuals creates cinematic edits for YouTube, brands,
   commercials, reels and social media.
@@ -168,7 +168,7 @@ className="mt-7 max-w-xl font-poppins text-base leading-8 text-gray-400 sm:text-
   initial={{ opacity: 0, x: 60 }}
   animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8, delay: 0.3 }}
-className="relative mx-auto mt-10 flex justify-center lg:mt-12 lg:justify-end"
+className="relative mx-auto mt-8 flex w-full justify-center md:mt-10 lg:mt-0 lg:justify-end xl:pr-4 2xl:pr-8"
 >
   {/* Glow */}
   <div className="absolute h-[380px] w-[320px] rounded-[32px] bg-[var(--color-primary)] opacity-20 blur-[90px]" />
