@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import ProjectCard from "../components/ProjectCard";
@@ -10,6 +10,21 @@ import reel3 from "../assets/videos/reel3.mp4";
 import reel4 from "../assets/videos/reel4.mp4";
 export default function Projects() {
   const [selectedVideo, setSelectedVideo] = useState(null);
+  useEffect(() => {
+  if (!selectedVideo) return;
+
+  window.history.pushState({ videoModal: true }, "");
+
+  const handleBack = () => {
+    setSelectedVideo(null);
+  };
+
+  window.addEventListener("popstate", handleBack);
+
+  return () => {
+    window.removeEventListener("popstate", handleBack);
+  };
+}, [selectedVideo]);
   
   return (
     <section

@@ -99,7 +99,7 @@ export default function Hero() {
      <div className="relative z-10 mx-auto grid min-h-screen w-full max-w-7xl items-center gap-10 px-5 sm:px-8 md:gap-12 lg:grid-cols-2 lg:gap-16 lg:px-10 xl:max-w-[1400px] 2xl:max-w-[1600px]">
       
 
-      <div className="w-full max-w-2xl">
+    <div className="w-full max-w-3xl">
 
           <motion.div
   initial={{ opacity: 0, y: 20 }}
