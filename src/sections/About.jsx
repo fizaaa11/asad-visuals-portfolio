@@ -5,13 +5,13 @@ export default function About() {
       id="about"
       className="relative min-h-screen overflow-hidden py-4 mt-25"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+      <div className="mx-auto w-full max-w-[1500px] px-6 lg:px-14 xl:px-16 2xl:px-20">
 
         
 
         {/* Content */}
 
-        <div className="mx-auto grid w-full max-w-7xl items-center gap-12 md:gap-14 lg:grid-cols-2 lg:gap-16 xl:max-w-[1400px] 2xl:max-w-[1600px]">
+        <div className="mx-auto grid w-full max-w-[1350px] items-center gap-12 md:gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 xl:gap-16">
 
         {/* LEFT */}
 

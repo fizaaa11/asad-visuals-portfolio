@@ -96,7 +96,9 @@ export default function Hero() {
         <FloatingParticles />
       {/* Hero Container */}
 
-     <div className="relative z-10 mx-auto grid min-h-screen w-full max-w-7xl items-center gap-10 px-5 sm:px-8 md:gap-12 lg:grid-cols-2 lg:gap-16 lg:px-10 xl:max-w-[1400px] 2xl:max-w-[1600px]">
+     <div 
+className="relative z-10 mx-auto grid min-h-screen w-full max-w-7xl items-center gap-10 px-5 sm:px-8 md:gap-12 lg:min-h-[calc(100svh-150px)] lg:grid-cols-2 lg:gap-10 lg:px-12 lg:py-8 xl:max-w-[1400px] xl:gap-12 xl:px-16 2xl:max-w-[1500px]"
+>
       
 
     <div className="w-full max-w-3xl">
@@ -117,7 +119,9 @@ className="mt-20 inline-flex items-center rounded-full border border-[var(--colo
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.2, duration: 0.8 }}
-className="mt-8 text-[2.8rem] font-black leading-tight text-white sm:text-5xl lg:text-6xl xl:text-[4.2rem] 2xl:text-[4.8rem]"
+
+className="mt-8 text-[2.8rem] font-black leading-tight text-white sm:text-5xl lg:text-[3.5rem] xl:text-[3.75rem] 2xl:text-[4.2rem]"
+
 >
   Where Every Frame 
    Tells

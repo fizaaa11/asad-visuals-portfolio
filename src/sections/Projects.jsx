@@ -8,6 +8,9 @@ import reel1 from "../assets/videos/reel1.mp4";
 import reel2 from "../assets/videos/reel2.mp4";
 import reel3 from "../assets/videos/reel3.mp4";
 import reel4 from "../assets/videos/reel4.mp4";
+import reel5 from "../assets/videos/reel5.mp4";
+import reel6 from "../assets/videos/reel6.mp4";
+import reel7 from "../assets/videos/reel7.mp4";
 export default function Projects() {
   const [selectedVideo, setSelectedVideo] = useState(null);
   useEffect(() => {
@@ -117,25 +120,25 @@ export default function Projects() {
 
 <ProjectCard
   title="Saas Animation"
-  category="Instagram Reel"
+  category="Animation"
   video={reel3}
   onClick={() =>
     setSelectedVideo({
       video: reel3,
       title: "Saas Animation",
-      category: "Instagram Reel",
+      category: "Animation",
     })
   }
 />
         <ProjectCard
-  title="filming reel"
-  category="Instagram Reel"
-  video={reel1}
+  title="Reel"
+  category="Short Form"
+  video={reel5}
   onClick={() =>
     setSelectedVideo({
-      video: reel1,
-      title: "filming reel",
-      category: "Instagram Reel",
+      video: reel5,
+      title: "Reel",
+      category: "Short Form",
     })
   }
 />
@@ -153,16 +156,42 @@ export default function Projects() {
   }
 />
 
+ <ProjectCard
+  title="Show Reel"
+  category="Video"
+  video={reel6}
+  onClick={() =>
+    setSelectedVideo({
+      video: reel6,
+      title: "Show Reel",
+      category: "Video",
+    })
+  }
+/>
+
+<ProjectCard
+  title="Reel"
+  category="Video"
+  video={reel7}
+  onClick={() =>
+    setSelectedVideo({
+      video: reel7,
+      title: "Reel",
+      category: "Video",
+    })
+  }
+/>
+
 
     <ProjectCard
-  title="Show Reel"
-  category="Instagram Reel"
+  title="Reel"
+  category="Video"
   video={reel4}
   onClick={() =>
     setSelectedVideo({
       video: reel4,
-      title: "Show Reel",
-      category: "Instagram Reel",
+      title: "Reel",
+      category: "Video",
     })
   }
 />
