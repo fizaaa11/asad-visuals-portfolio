@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative min-h-screen overflow-hidden bg-[var(--color-background)] py-9"
+      className="relative min-h-screen overflow-hidden bg-[var(--color-background)] py-9 sm:px-6 lg:px-8"
     >
 
       {/* ShapeGrid Background */}

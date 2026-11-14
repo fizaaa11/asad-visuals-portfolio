@@ -3,7 +3,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen overflow-hidden py-4 mt-25"
+      className="relative min-h-screen overflow-hidden py-4 mt-1 sm:px-6 lg:px-8"
     >
       <div className="mx-auto w-full max-w-[1500px] px-6 lg:px-14 xl:px-16 2xl:px-20">
 
