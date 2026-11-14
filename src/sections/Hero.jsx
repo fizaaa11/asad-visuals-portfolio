@@ -81,7 +81,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-[var(--color-background)] sm:px-6 lg:px-8"
+     className="relative min-h-0 overflow-hidden bg-[var(--color-background)] sm:px-6 lg:px-8 lg:min-h-screen"
     >
       {/* Background Glow */}
 
@@ -97,7 +97,7 @@ export default function Hero() {
       {/* Hero Container */}
 
      <div 
-className="relative z-10 mx-auto grid min-h-screen w-full max-w-7xl items-center gap-10 px-5 sm:px-8 md:gap-12 lg:min-h-[calc(100svh-150px)] lg:grid-cols-2 lg:gap-10 lg:px-12 lg:py-8 xl:max-w-[1400px] xl:gap-12 xl:px-16 2xl:max-w-[1500px]"
+className="relative z-10 mx-auto grid min-h-0 w-full max-w-7xl items-center gap-10 px-5 sm:px-8 md:gap-12 lg:min-h-[calc(100svh-150px)] lg:grid-cols-2 lg:gap-10 lg:px-12 lg:py-8 xl:max-w-[1400px] xl:gap-12 xl:px-16 2xl:max-w-[1500px]"
 >
       
 

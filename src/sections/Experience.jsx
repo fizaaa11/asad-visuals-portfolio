@@ -7,11 +7,11 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative min-h-screen overflow-hidden bg-[var(--color-background)] py-9 sm:px-6 lg:px-8"
+      className="relative min-h-0 overflow-hidden bg-[var(--color-background)] py-9 sm:px-6 lg:px-8 lg:min-h-screen"
     >
 
       {/* ShapeGrid Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 mx-auto max-w-7xl px-6 lg:px-10">
         <ShapeGrid
           speed={0.5}
           squareSize={40}

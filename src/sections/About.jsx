@@ -3,9 +3,9 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen overflow-hidden py-4 mt-1 sm:px-6 lg:px-8"
+     className="relative min-h-0 overflow-hidden py-4 mt-1 sm:px-6 lg:px-8 lg:min-h-screen"
     >
-      <div className="mx-auto w-full max-w-[1500px] px-6 lg:px-14 xl:px-16 2xl:px-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10">
 
         
 
