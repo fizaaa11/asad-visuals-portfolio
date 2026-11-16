@@ -14,7 +14,9 @@ const contactLimiter = rateLimit({
     message: "Too many requests. Please try again later.",
   },
 });
-app.use(cors());
+app.use(cors({
+  origin: "https://asad-visuals-portfolio.vercel.app"
+}));
 app.use(express.json());
 
 const transporter = nodemailer.createTransport({
@@ -83,6 +85,8 @@ ${message}
   }
 });
 
-app.listen(5000, () => {
-  console.log("Server started");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
